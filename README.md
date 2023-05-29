@@ -35,6 +35,6 @@ This section contains Python scripts for scraping and analyzing tweets. The scri
 * senTweets.py: This script is used for sentiment analysis of tweets. It uses the transformers library to load a pre-trained model 'cardiffnlp/twitter-roberta-base-sentiment' for sentiment analysis. The code for this script was adapted from another project, [tw-sentiment.py](https://github.com/mehranshakarami/AI_Spectrum/blob/main/2022/Sentiment_Analysis/tw-sentiment.py) by mehranshakarami.
 
 # Articles
-
+This section contains Python scripts for analyzing the articles. The scripts are:
 * articlesSenTop.py: This script performs sentiment analysis and topic modeling the CSV file containing the articles' text. It uses the TextBlob library for sentiment analysis and the gensim library for topic modeling. 
 * articles.py: This script reads the resulting CSV file from `articlesSenTop.py` and computes the average sentiment for each month. It then plots the average sentiment over time. It also extracts words from the MainSubject column of the CSV file, generates word clouds for each month, and creates bar charts for the top 5 words for each month.
