@@ -19,6 +19,7 @@
 ├── Articles
 │   └── Code
 │       └── articles.py
+│       └── articlesSenTop.py
 │   └── Data
 │       └── articles_results.csv
 │       └── articles_text.csv
@@ -35,4 +36,5 @@ This section contains Python scripts for scraping and analyzing tweets. The scri
 
 # Articles
 
-* articles.py 
+* articlesSenTop.py: This script performs sentiment analysis and topic modeling the CSV file containing the articles' text. It uses the TextBlob library for sentiment analysis and the gensim library for topic modeling. 
+* articles.py: This script reads the resulting CSV file from 'articlesSenTop.py' and computes the average sentiment for each month. It then plots the average sentiment over time. It also extracts words from the MainSubject column of the CSV file, generates word clouds for each month, and creates bar charts for the top 5 words for each month.
